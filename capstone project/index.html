@@ -1,0 +1,55 @@
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://marksheet.io/css/reset.css"
+/>
+
+<style>
+  #heading {
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  body {
+    background-color: white;
+  }
+  #mainscreen {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("images/background.jpg");
+    background-size: 100% 500px;
+  }
+  #pad {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 2%;
+  }
+  .buttons {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<div id="heading">Martial Arts Simulator by Madhumitha</div>
+<div id="mainscreen">
+  <canvas id="myCanvas" width="500" height="500"></canvas>
+</div>
+<script type="text/javascript" src="main.js"></script>
+<div id="pad">
+  <button class="buttons" id="block">BLOCK (DOWN ARROW)</button>
+  <button class="buttons" id="kick">KICK (SPACEBAR)</button>
+  <button class="buttons" id="punch">PUNCH (UP ARROW)</button>
+  <button class="buttons" id="forward">FORWARD (DOWN ARROW)</button>
+  <button class="buttons" id="backward">BACKWARD (LEFT ARROW)</button>
+</div>
